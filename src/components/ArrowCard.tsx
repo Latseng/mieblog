@@ -21,9 +21,9 @@ export default function ArrowCard({entry, pill}: Props) {
             )}
             <div class="text-sm">{formatDate(entry.data.date)}</div>
           </div>
-          <div class="my-4">
+          {/* <div class="my-4">
             <img class="rounded-md" src="https://picsum.photos/640/320" alt="cover image" />
-          </div>
+          </div> */}
           <div class="font-semibold mt-3 text-black dark:text-white">
             {entry.data.title}
           </div>
